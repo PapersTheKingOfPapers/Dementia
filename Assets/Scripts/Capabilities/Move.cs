@@ -24,6 +24,11 @@ public class Move : MonoBehaviour
         return direction;
     }
 
+    public InputController GetInputController()
+    {
+        return input;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
